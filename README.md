@@ -67,6 +67,17 @@ Copy và dán vào VPS của bạn, sau đó nhấn lệnh theo thứ tự:
     docker compose down -v
     rm -f .env
     
+ Update node:
+ 
+    control C
+    
+    docker-compose pull
+    docker-compose restart
+    
+ Check logs:
+ 
+    docker-compose logs -f
+    
 6/ Faucet token testnet vào ví chạy node:
 
     https://sepolia-faucet.pk910.de/
