@@ -51,6 +51,15 @@ Nhấn vào View Key sẽ thấy 2 dòng:
     
     wss://eth-sepolia.g.alchemy.com/v2/pDv3yo41GYQhYJeB
     
+Để chạy Prover
+Thay đổi dòng sau:
+    
+    ENABLE_PROVER=true
+    L1_PROVER_PRIVATE_KEY=
+    
+(chỗ này dán PRIVATE KEY của bạn vào, vào Metamask Export, nhớ là dùng ví PHỤ để làm nhé)
+    
+    
 Copy và dán vào VPS của bạn, sau đó nhấn lệnh theo thứ tự:
 
     Control O
@@ -82,11 +91,3 @@ Copy và dán vào VPS của bạn, sau đó nhấn lệnh theo thứ tự:
 
     https://sepolia-faucet.pk910.de/
     
-7/ Để chạy Prover, quay lại bước sửa file .env (bước 4):
-
-Thay đổi dòng sau:
-    
-    ENABLE_PROVER=true
-    L1_PROVER_PRIVATE_KEY=
-    
-(chỗ này dán PRIVATE KEY của bạn vào, vào Metamask Export, nhớ là dùng ví PHỤ để làm nhé)
