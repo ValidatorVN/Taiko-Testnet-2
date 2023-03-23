@@ -84,7 +84,7 @@ Copy và dán vào VPS của bạn, sau đó nhấn lệnh theo thứ tự:
     
 5/ Chạy Node bằng lệnh:
 
-    docker-compose up -d
+    docker compose up -d
     
  Xoá node:
  
@@ -96,12 +96,12 @@ Copy và dán vào VPS của bạn, sau đó nhấn lệnh theo thứ tự:
  
     control C
     
-    docker-compose pull
-    docker-compose restart
+    docker compose pull
+    docker compose restart
     
  Check logs:
  
-    docker-compose logs -f
+    docker compose logs -f
     
 6/ Faucet token testnet vào ví chạy node:
 
