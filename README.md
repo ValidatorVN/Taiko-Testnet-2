@@ -106,4 +106,5 @@ Copy và dán vào VPS của bạn, sau đó nhấn lệnh theo thứ tự:
 6/ Faucet token testnet vào ví chạy node:
 
     https://sepolia-faucet.pk910.de/
+    https://faucet-sepolia.rockx.com/
     
